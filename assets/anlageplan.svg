@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">Schematischer Anlagenplan des KGV Schmiedekamp</title>
+  <desc id="map-desc">Übersicht der Parzellen 1 bis 117, des Vereinsheims, der Parkplätze, des Haupteingangs und der Tore 2 bis 4. Die Darstellung ist nicht maßstabsgetreu.</desc>
+  <style>
+    :root { color-scheme: light; }
+    .plot rect, .plot path { fill: #eef7f2; stroke: #5e786f; stroke-width: 2; transition: fill .18s ease, stroke .18s ease; }
+    .plot text { fill: #173d34; font: 700 20px Inter, Arial, sans-serif; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+    .plot:hover rect, .plot:hover path { fill: #dcefe7; stroke: #0b614b; stroke-width: 3; }
+    .plot.is-free rect, .plot.is-free path { fill: #b9e4c5; stroke: #0b614b; stroke-width: 4; }
+    .plot.is-checking rect, .plot.is-checking path { fill: #c8e9f5; stroke: #176787; stroke-width: 4; }
+    .landmark { fill: #0b614b; font: 800 20px Inter, Arial, sans-serif; letter-spacing: .02em; }
+    .small { fill: #48655c; font: 650 16px Inter, Arial, sans-serif; }
+    .gate { fill: #176787; font: 850 17px Inter, Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+  </style>
+
+  <rect width="1800" height="1100" rx="34" fill="#f5f4ed"/>
+  <rect x="36" y="36" width="1728" height="1028" rx="28" fill="none" stroke="#0b614b" stroke-width="4"/>
+
+  <g aria-hidden="true">
+    <path d="M54 306H1518L1530 318V972H1470V1050H52Z" fill="#fffef9" stroke="#8ba59b" stroke-width="3"/>
+    <path d="M54 306L70 176H796L925 204H1320L1518 306" fill="#fffef9" stroke="#8ba59b" stroke-width="3"/>
+    <path d="M1518 306H1698V972H1530V318Z" fill="#fffef9" stroke="#8ba59b" stroke-width="3"/>
+    <path d="M1698 306H1780V972H1698Z" fill="#fffef9" stroke="#8ba59b" stroke-width="3"/>
+  </g>
+
+  <g aria-hidden="true">
+    <text x="78" y="90" fill="#073c31" font-family="Georgia, serif" font-size="42" font-weight="700">KGV Schmiedekamp</text>
+    <text x="78" y="125" fill="#5f706a" font-family="Inter, Arial, sans-serif" font-size="18">Anlagenplan · schematische Darstellung</text>
+    <g transform="translate(875 62)">
+      <path d="M25 0L50 62L25 48L0 62Z" fill="#0b614b"/>
+      <text x="25" y="86" fill="#0b614b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900" text-anchor="middle">N</text>
+    </g>
+    <g transform="translate(1110 68)">
+      <rect x="0" y="0" width="38" height="24" rx="7" fill="#b9e4c5" stroke="#0b614b" stroke-width="2"/>
+      <text x="50" y="18" class="small">frei</text>
+      <rect x="148" y="0" width="38" height="24" rx="7" fill="#c8e9f5" stroke="#176787" stroke-width="2"/>
+      <text x="198" y="18" class="small">in Klärung</text>
+      <rect x="328" y="0" width="38" height="24" rx="7" fill="#eef7f2" stroke="#5e786f" stroke-width="2"/>
+      <text x="378" y="18" class="small">keine öffentliche Angabe</text>
+    </g>
+  </g>
+
+  <g id="landmarks">
+    <g transform="translate(72 140)">
+      <rect width="260" height="48" rx="12" fill="#dfe7e3" stroke="#8ba59b" stroke-width="2"/>
+      <circle cx="30" cy="24" r="16" fill="#176787"/>
+      <text x="30" y="30" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900" text-anchor="middle">P</text>
+      <text x="58" y="31" class="landmark">Parkplatz Süd</text>
+    </g>
+    <text x="74" y="326" class="gate">Tor 2</text>
+    <g transform="translate(82 628)">
+      <rect width="270" height="184" rx="18" fill="#dcefe7" stroke="#0b614b" stroke-width="3"/>
+      <path d="M84 116V65L135 25L186 65V116" fill="#fffef9" stroke="#0b614b" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="122" y="79" width="26" height="37" fill="#a9dcef" stroke="#0b614b" stroke-width="4"/>
+      <text x="135" y="154" class="landmark" text-anchor="middle">Vereinsheim</text>
+    </g>
+    <g transform="translate(72 916)">
+      <rect width="310" height="126" rx="14" fill="#dfe7e3" stroke="#8ba59b" stroke-width="2"/>
+      <circle cx="46" cy="63" r="22" fill="#176787"/>
+      <text x="46" y="71" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" text-anchor="middle">P</text>
+      <text x="83" y="70" class="landmark">Parkplatz Nord</text>
+    </g>
+    <path d="M180 885V858M180 858L166 873M180 858L194 873" fill="none" stroke="#176787" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="215" y="877" class="landmark">Haupteingang</text>
+    <text x="1495" y="1000" class="gate" transform="rotate(-90 1495 1000)">Tor 3</text>
+    <text x="1718" y="1000" class="gate" transform="rotate(-90 1718 1000)">Tor 4</text>
+  </g>
+
+  <g id="plots">
+    <g id="plot-85" class="plot" data-plot="85"><rect x="80" y="200" width="105" height="90"/><text x="132.5" y="245">85</text></g>
+    <g id="plot-86" class="plot" data-plot="86"><rect x="185" y="200" width="105" height="90"/><text x="237.5" y="245">86</text></g>
+    <g id="plot-87" class="plot" data-plot="87"><rect x="290" y="200" width="105" height="90"/><text x="342.5" y="245">87</text></g>
+    <g id="plot-88" class="plot" data-plot="88"><rect x="395" y="200" width="105" height="90"/><text x="447.5" y="245">88</text></g>
+    <g id="plot-89" class="plot" data-plot="89"><rect x="500" y="200" width="105" height="90"/><text x="552.5" y="245">89</text></g>
+    <g id="plot-90" class="plot" data-plot="90"><rect x="605" y="200" width="105" height="90"/><text x="657.5" y="245">90</text></g>
+    <g id="plot-91" class="plot" data-plot="91"><rect x="710" y="200" width="105" height="90"/><text x="762.5" y="245">91</text></g>
+
+    <g id="plot-73" class="plot" data-plot="73"><rect x="80" y="340" width="105" height="80"/><text x="132.5" y="380">73</text></g>
+    <g id="plot-74" class="plot" data-plot="74"><rect x="185" y="340" width="105" height="80"/><text x="237.5" y="380">74</text></g>
+    <g id="plot-75" class="plot" data-plot="75"><rect x="290" y="340" width="105" height="80"/><text x="342.5" y="380">75</text></g>
+    <g id="plot-59" class="plot" data-plot="59"><rect x="80" y="420" width="105" height="80"/><text x="132.5" y="460">59</text></g>
+    <g id="plot-60" class="plot" data-plot="60"><rect x="185" y="420" width="105" height="80"/><text x="237.5" y="460">60</text></g>
+    <g id="plot-61" class="plot" data-plot="61"><rect x="290" y="420" width="105" height="80"/><text x="342.5" y="460">61</text></g>
+
+    <g id="plot-76" class="plot" data-plot="76"><rect x="420" y="340" width="100" height="80"/><text x="470" y="380">76</text></g>
+    <g id="plot-77" class="plot" data-plot="77"><rect x="520" y="340" width="100" height="80"/><text x="570" y="380">77</text></g>
+    <g id="plot-78" class="plot" data-plot="78"><rect x="620" y="340" width="100" height="80"/><text x="670" y="380">78</text></g>
+    <g id="plot-79" class="plot" data-plot="79"><rect x="720" y="340" width="100" height="80"/><text x="770" y="380">79</text></g>
+    <g id="plot-80" class="plot" data-plot="80"><rect x="820" y="340" width="100" height="80"/><text x="870" y="380">80</text></g>
+    <g id="plot-81" class="plot" data-plot="81"><rect x="920" y="340" width="100" height="80"/><text x="970" y="380">81</text></g>
+    <g id="plot-82" class="plot" data-plot="82"><rect x="1020" y="340" width="100" height="80"/><text x="1070" y="380">82</text></g>
+    <g id="plot-83" class="plot" data-plot="83"><rect x="1120" y="340" width="100" height="80"/><text x="1170" y="380">83</text></g>
+    <g id="plot-84" class="plot" data-plot="84"><path d="M1220 340H1510V420H1220Z"/><text x="1365" y="380">84</text></g>
+
+    <g id="plot-62" class="plot" data-plot="62"><rect x="420" y="420" width="100" height="80"/><text x="470" y="460">62</text></g>
+    <g id="plot-63" class="plot" data-plot="63"><rect x="520" y="420" width="100" height="80"/><text x="570" y="460">63</text></g>
+    <g id="plot-64" class="plot" data-plot="64"><rect x="620" y="420" width="100" height="80"/><text x="670" y="460">64</text></g>
+    <g id="plot-65" class="plot" data-plot="65"><rect x="720" y="420" width="100" height="80"/><text x="770" y="460">65</text></g>
+    <g id="plot-66" class="plot" data-plot="66"><rect x="820" y="420" width="100" height="80"/><text x="870" y="460">66</text></g>
+    <g id="plot-67" class="plot" data-plot="67"><rect x="920" y="420" width="100" height="80"/><text x="970" y="460">67</text></g>
+    <g id="plot-68" class="plot" data-plot="68"><rect x="1020" y="420" width="100" height="80"/><text x="1070" y="460">68</text></g>
+    <g id="plot-69" class="plot" data-plot="69"><rect x="1120" y="420" width="100" height="80"/><text x="1170" y="460">69</text></g>
+    <g id="plot-70" class="plot" data-plot="70"><rect x="1220" y="420" width="100" height="80"/><text x="1270" y="460">70</text></g>
+    <g id="plot-71" class="plot" data-plot="71"><rect x="1320" y="420" width="100" height="80"/><text x="1370" y="460">71</text></g>
+    <g id="plot-72" class="plot" data-plot="72"><rect x="1420" y="420" width="90" height="80"/><text x="1465" y="460">72</text></g>
+
+    <g id="plot-45" class="plot" data-plot="45"><rect x="80" y="530" width="105" height="80"/><text x="132.5" y="570">45</text></g>
+    <g id="plot-46" class="plot" data-plot="46"><rect x="185" y="530" width="105" height="80"/><text x="237.5" y="570">46</text></g>
+    <g id="plot-47" class="plot" data-plot="47"><rect x="290" y="530" width="105" height="80"/><text x="342.5" y="570">47</text></g>
+    <g id="plot-48" class="plot" data-plot="48"><rect x="420" y="530" width="100" height="80"/><text x="470" y="570">48</text></g>
+    <g id="plot-49" class="plot" data-plot="49"><rect x="520" y="530" width="100" height="80"/><text x="570" y="570">49</text></g>
+    <g id="plot-50" class="plot" data-plot="50"><rect x="620" y="530" width="100" height="80"/><text x="670" y="570">50</text></g>
+    <g id="plot-51" class="plot" data-plot="51"><rect x="720" y="530" width="100" height="80"/><text x="770" y="570">51</text></g>
+    <g id="plot-52" class="plot" data-plot="52"><rect x="820" y="530" width="100" height="80"/><text x="870" y="570">52</text></g>
+    <g id="plot-53" class="plot" data-plot="53"><rect x="920" y="530" width="100" height="80"/><text x="970" y="570">53</text></g>
+    <g id="plot-54" class="plot" data-plot="54"><rect x="1020" y="530" width="100" height="80"/><text x="1070" y="570">54</text></g>
+    <g id="plot-55" class="plot" data-plot="55"><rect x="1120" y="530" width="100" height="80"/><text x="1170" y="570">55</text></g>
+    <g id="plot-56" class="plot" data-plot="56"><rect x="1220" y="530" width="100" height="80"/><text x="1270" y="570">56</text></g>
+    <g id="plot-57" class="plot" data-plot="57"><rect x="1320" y="530" width="100" height="80"/><text x="1370" y="570">57</text></g>
+    <g id="plot-58" class="plot" data-plot="58"><rect x="1420" y="530" width="90" height="80"/><text x="1465" y="570">58</text></g>
+
+    <g id="plot-34" class="plot" data-plot="34"><rect x="420" y="610" width="100" height="80"/><text x="470" y="650">34</text></g>
+    <g id="plot-35" class="plot" data-plot="35"><rect x="520" y="610" width="100" height="80"/><text x="570" y="650">35</text></g>
+    <g id="plot-36" class="plot" data-plot="36"><rect x="620" y="610" width="100" height="80"/><text x="670" y="650">36</text></g>
+    <g id="plot-37" class="plot" data-plot="37"><rect x="720" y="610" width="100" height="80"/><text x="770" y="650">37</text></g>
+    <g id="plot-38" class="plot" data-plot="38"><rect x="820" y="610" width="100" height="80"/><text x="870" y="650">38</text></g>
+    <g id="plot-39" class="plot" data-plot="39"><rect x="920" y="610" width="100" height="80"/><text x="970" y="650">39</text></g>
+    <g id="plot-40" class="plot" data-plot="40"><rect x="1020" y="610" width="100" height="80"/><text x="1070" y="650">40</text></g>
+    <g id="plot-41" class="plot" data-plot="41"><rect x="1120" y="610" width="100" height="80"/><text x="1170" y="650">41</text></g>
+    <g id="plot-42" class="plot" data-plot="42"><rect x="1220" y="610" width="100" height="80"/><text x="1270" y="650">42</text></g>
+    <g id="plot-43" class="plot" data-plot="43"><rect x="1320" y="610" width="100" height="80"/><text x="1370" y="650">43</text></g>
+    <g id="plot-44" class="plot" data-plot="44"><rect x="1420" y="610" width="90" height="80"/><text x="1465" y="650">44</text></g>
+
+    <g id="plot-23" class="plot" data-plot="23"><rect x="420" y="730" width="100" height="80"/><text x="470" y="770">23</text></g>
+    <g id="plot-24" class="plot" data-plot="24"><rect x="520" y="730" width="100" height="80"/><text x="570" y="770">24</text></g>
+    <g id="plot-25" class="plot" data-plot="25"><rect x="620" y="730" width="100" height="80"/><text x="670" y="770">25</text></g>
+    <g id="plot-26" class="plot" data-plot="26"><rect x="720" y="730" width="100" height="80"/><text x="770" y="770">26</text></g>
+    <g id="plot-27" class="plot" data-plot="27"><rect x="820" y="730" width="100" height="80"/><text x="870" y="770">27</text></g>
+    <g id="plot-28" class="plot" data-plot="28"><rect x="920" y="730" width="100" height="80"/><text x="970" y="770">28</text></g>
+    <g id="plot-29" class="plot" data-plot="29"><rect x="1020" y="730" width="100" height="80"/><text x="1070" y="770">29</text></g>
+    <g id="plot-30" class="plot" data-plot="30"><rect x="1120" y="730" width="100" height="80"/><text x="1170" y="770">30</text></g>
+    <g id="plot-31" class="plot" data-plot="31"><rect x="1220" y="730" width="100" height="80"/><text x="1270" y="770">31</text></g>
+    <g id="plot-32" class="plot" data-plot="32"><rect x="1320" y="730" width="100" height="80"/><text x="1370" y="770">32</text></g>
+    <g id="plot-33" class="plot" data-plot="33"><rect x="1420" y="730" width="90" height="80"/><text x="1465" y="770">33</text></g>
+
+    <g id="plot-12" class="plot" data-plot="12"><rect x="420" y="810" width="100" height="80"/><text x="470" y="850">12</text></g>
+    <g id="plot-13" class="plot" data-plot="13"><rect x="520" y="810" width="100" height="80"/><text x="570" y="850">13</text></g>
+    <g id="plot-14" class="plot" data-plot="14"><rect x="620" y="810" width="100" height="80"/><text x="670" y="850">14</text></g>
+    <g id="plot-15" class="plot" data-plot="15"><rect x="720" y="810" width="100" height="80"/><text x="770" y="850">15</text></g>
+    <g id="plot-16" class="plot" data-plot="16"><rect x="820" y="810" width="100" height="80"/><text x="870" y="850">16</text></g>
+    <g id="plot-17" class="plot" data-plot="17"><rect x="920" y="810" width="100" height="80"/><text x="970" y="850">17</text></g>
+    <g id="plot-18" class="plot" data-plot="18"><rect x="1020" y="810" width="100" height="80"/><text x="1070" y="850">18</text></g>
+    <g id="plot-19" class="plot" data-plot="19"><rect x="1120" y="810" width="100" height="80"/><text x="1170" y="850">19</text></g>
+    <g id="plot-20" class="plot" data-plot="20"><rect x="1220" y="810" width="100" height="80"/><text x="1270" y="850">20</text></g>
+    <g id="plot-21" class="plot" data-plot="21"><rect x="1320" y="810" width="100" height="80"/><text x="1370" y="850">21</text></g>
+    <g id="plot-22" class="plot" data-plot="22"><rect x="1420" y="810" width="90" height="80"/><text x="1465" y="850">22</text></g>
+
+    <g id="plot-1" class="plot" data-plot="1"><rect x="420" y="930" width="95" height="110"/><text x="467.5" y="985">1</text></g>
+    <g id="plot-2" class="plot" data-plot="2"><rect x="515" y="930" width="95" height="110"/><text x="562.5" y="985">2</text></g>
+    <g id="plot-3" class="plot" data-plot="3"><rect x="610" y="930" width="95" height="110"/><text x="657.5" y="985">3</text></g>
+    <g id="plot-4" class="plot" data-plot="4"><rect x="705" y="930" width="95" height="110"/><text x="752.5" y="985">4</text></g>
+    <g id="plot-5" class="plot" data-plot="5"><rect x="800" y="930" width="95" height="110"/><text x="847.5" y="985">5</text></g>
+    <g id="plot-6" class="plot" data-plot="6"><rect x="895" y="930" width="95" height="110"/><text x="942.5" y="985">6</text></g>
+    <g id="plot-7" class="plot" data-plot="7"><rect x="990" y="930" width="95" height="110"/><text x="1037.5" y="985">7</text></g>
+    <g id="plot-8" class="plot" data-plot="8"><rect x="1085" y="930" width="95" height="110"/><text x="1132.5" y="985">8</text></g>
+    <g id="plot-9" class="plot" data-plot="9"><rect x="1180" y="930" width="95" height="110"/><text x="1227.5" y="985">9</text></g>
+    <g id="plot-10" class="plot" data-plot="10"><rect x="1275" y="930" width="95" height="110"/><text x="1322.5" y="985">10</text></g>
+    <g id="plot-11" class="plot" data-plot="11"><rect x="1370" y="930" width="95" height="110"/><text x="1417.5" y="985">11</text></g>
+
+    <g id="plot-92" class="plot" data-plot="92"><rect x="1530" y="330" width="80" height="70"/><text x="1570" y="365">92</text></g>
+    <g id="plot-93" class="plot" data-plot="93"><rect x="1530" y="400" width="80" height="70"/><text x="1570" y="435">93</text></g>
+    <g id="plot-94" class="plot" data-plot="94"><rect x="1530" y="470" width="80" height="70"/><text x="1570" y="505">94</text></g>
+    <g id="plot-95" class="plot" data-plot="95"><rect x="1530" y="540" width="80" height="70"/><text x="1570" y="575">95</text></g>
+    <g id="plot-96" class="plot" data-plot="96"><rect x="1530" y="610" width="80" height="70"/><text x="1570" y="645">96</text></g>
+    <g id="plot-97" class="plot" data-plot="97"><rect x="1530" y="680" width="80" height="70"/><text x="1570" y="715">97</text></g>
+    <g id="plot-98" class="plot" data-plot="98"><rect x="1530" y="750" width="80" height="70"/><text x="1570" y="785">98</text></g>
+    <g id="plot-99" class="plot" data-plot="99"><rect x="1530" y="820" width="80" height="70"/><text x="1570" y="855">99</text></g>
+    <g id="plot-100" class="plot" data-plot="100"><rect x="1530" y="890" width="80" height="70"/><text x="1570" y="925">100</text></g>
+
+    <g id="plot-109" class="plot" data-plot="109"><rect x="1610" y="330" width="80" height="70"/><text x="1650" y="365">109</text></g>
+    <g id="plot-108" class="plot" data-plot="108"><rect x="1610" y="400" width="80" height="70"/><text x="1650" y="435">108</text></g>
+    <g id="plot-107" class="plot" data-plot="107"><rect x="1610" y="470" width="80" height="70"/><text x="1650" y="505">107</text></g>
+    <g id="plot-106" class="plot" data-plot="106"><rect x="1610" y="540" width="80" height="70"/><text x="1650" y="575">106</text></g>
+    <g id="plot-105" class="plot" data-plot="105"><rect x="1610" y="610" width="80" height="70"/><text x="1650" y="645">105</text></g>
+    <g id="plot-104" class="plot" data-plot="104"><rect x="1610" y="680" width="80" height="70"/><text x="1650" y="715">104</text></g>
+    <g id="plot-103" class="plot" data-plot="103"><rect x="1610" y="750" width="80" height="70"/><text x="1650" y="785">103</text></g>
+    <g id="plot-102" class="plot" data-plot="102"><rect x="1610" y="820" width="80" height="70"/><text x="1650" y="855">102</text></g>
+    <g id="plot-101" class="plot" data-plot="101"><rect x="1610" y="890" width="80" height="70"/><text x="1650" y="925">101</text></g>
+
+    <g id="plot-110" class="plot" data-plot="110"><rect x="1710" y="330" width="70" height="72"/><text x="1745" y="366">110</text></g>
+    <g id="plot-111" class="plot" data-plot="111"><rect x="1710" y="402" width="70" height="72"/><text x="1745" y="438">111</text></g>
+    <g id="plot-112" class="plot" data-plot="112"><rect x="1710" y="474" width="70" height="72"/><text x="1745" y="510">112</text></g>
+    <g id="plot-113" class="plot" data-plot="113"><rect x="1710" y="546" width="70" height="72"/><text x="1745" y="582">113</text></g>
+    <g id="plot-114" class="plot" data-plot="114"><rect x="1710" y="618" width="70" height="72"/><text x="1745" y="654">114</text></g>
+    <g id="plot-115" class="plot" data-plot="115"><rect x="1710" y="690" width="70" height="72"/><text x="1745" y="726">115</text></g>
+    <g id="plot-116" class="plot" data-plot="116"><rect x="1710" y="762" width="70" height="72"/><text x="1745" y="798">116</text></g>
+    <g id="plot-117" class="plot" data-plot="117"><rect x="1710" y="834" width="70" height="72"/><text x="1745" y="870">117</text></g>
+  </g>
+
+  <text x="1520" y="1080" fill="#6e7c77" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="end">Nicht maßstabsgetreu · Stand wird auf der Website gepflegt</text>
+</svg>

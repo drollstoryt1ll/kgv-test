@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Die Gartenbörse des KGV Schmiedekamp: Pflanzen und Gartensachen verschenken, tauschen, verleihen oder suchen."
+    />
+    <meta name="theme-color" content="#0b614b" />
+    <title>Gartenbörse | KGV Schmiedekamp e.V.</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b614b'/%3E%3Cpath d='M12 48C27 45 40 34 51 14' fill='none' stroke='%238ed7f2' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M27 37c-9 1-14-4-15-12 8-2 15 2 15 12Zm8-7c0-9 6-15 15-15 1 9-5 15-15 15Z' fill='%23ffffff'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+    <header class="site-header" data-header>
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="KGV Schmiedekamp – Startseite">
+          <span class="brand-mark" aria-hidden="true"><span>KS</span></span>
+          <span class="brand-copy">
+            <span class="brand-name">Schmiedekamp</span>
+            <span class="brand-kicker">Kleingärtnerverein e.V.</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="nav-toggle__label">Menü</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+          <a href="index.html#aktuelles">Aktuelles</a>
+          <a href="index.html#termine">Termine</a>
+          <a href="freie-gaerten.html">Freie Gärten</a>
+          <a href="gartenboerse.html" aria-current="page">Gartenbörse</a>
+          <a href="index.html#verein">Verein</a>
+          <a href="index.html#kontakt">Kontakt</a>
+          <a class="nav-app" href="index.html#laubenmeister">Für Mitglieder</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="exchange-hero" aria-labelledby="exchange-title">
+        <div class="shell exchange-hero__grid">
+          <div class="exchange-hero__copy" data-reveal>
+            <p class="eyebrow eyebrow--sky">Gartenbörse</p>
+            <h1 id="exchange-title">Teilen, tauschen, verleihen.</h1>
+            <p>
+              Tomaten übrig, Werkzeug zu verleihen oder Brennholz abzugeben? Hier finden gute Gartensachen ein neues
+              Zuhause – unkompliziert und innerhalb der Vereinsgemeinschaft.
+            </p>
+            <div class="exchange-hero__actions">
+              <a class="button button--sky" href="#angebot-einreichen">Eintrag einreichen</a>
+              <a class="button button--ghost" href="#angebote">Angebote ansehen</a>
+            </div>
+          </div>
+
+          <aside class="exchange-categories" data-reveal aria-label="Kategorien der Gartenbörse">
+            <div class="exchange-categories__head">
+              <span>Was ist möglich?</span>
+              <span aria-hidden="true">↘</span>
+            </div>
+            <ul>
+              <li><span aria-hidden="true">01</span><strong>Verschenken</strong><small>Ernte, Pflanzen und Material</small></li>
+              <li><span aria-hidden="true">02</span><strong>Tauschen</strong><small>Saatgut, Ableger und Gartensachen</small></li>
+              <li><span aria-hidden="true">03</span><strong>Verleihen</strong><small>Werkzeug und Geräte</small></li>
+              <li><span aria-hidden="true">04</span><strong>Suchen</strong><small>Nachbarschaftlich nachfragen</small></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section exchange-market" id="angebote" aria-labelledby="offers-title">
+        <div class="shell">
+          <div class="exchange-market__head" data-reveal>
+            <div>
+              <p class="eyebrow">Aktuelle Einträge</p>
+              <h2 id="offers-title">Was gerade angeboten wird</h2>
+            </div>
+            <div class="exchange-filters" aria-label="Einträge filtern">
+              <button type="button" data-exchange-filter="Alle" aria-pressed="true">Alle</button>
+              <button type="button" data-exchange-filter="Verschenken" aria-pressed="false">Verschenken</button>
+              <button type="button" data-exchange-filter="Tauschen" aria-pressed="false">Tauschen</button>
+              <button type="button" data-exchange-filter="Verleihen" aria-pressed="false">Verleihen</button>
+              <button type="button" data-exchange-filter="Suche" aria-pressed="false">Suche</button>
+            </div>
+          </div>
+
+          <div class="exchange-list" data-exchange-list aria-live="polite">
+            <div class="exchange-empty" data-exchange-empty>
+              <span aria-hidden="true">↔</span>
+              <h3>Noch keine Einträge veröffentlicht</h3>
+              <p>Sobald der Vorstand ein Angebot freigibt, erscheint es hier.</p>
+              <a class="text-link" href="#angebot-einreichen">Den ersten Eintrag einreichen <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section exchange-submit-section" id="angebot-einreichen" aria-labelledby="submit-title">
+        <div class="shell exchange-submit-grid">
+          <div data-reveal>
+            <p class="eyebrow eyebrow--sky">Eintrag einreichen</p>
+            <h2 id="submit-title">Schick dem Vorstand deine Gartenbörsen-Idee.</h2>
+            <p>
+              Die vorbereitete E-Mail fragt alle wichtigen Angaben ab. Nach kurzer Prüfung wird der Eintrag vom
+              Administrator veröffentlicht. Persönliche Kontaktdaten erscheinen nur, wenn du das ausdrücklich möchtest.
+            </p>
+          </div>
+
+          <aside class="exchange-mail-card" data-reveal>
+            <span class="exchange-mail-card__label">E-Mail-Vorlage</span>
+            <h3>Was möchtest du anbieten oder suchen?</h3>
+            <ul>
+              <li>Kategorie und kurze Überschrift</li>
+              <li>Beschreibung, Menge und Zustand</li>
+              <li>Wie lange der Eintrag gelten soll</li>
+              <li>Gewünschter Kontaktweg</li>
+            </ul>
+            <a
+              class="button button--light"
+              href="mailto:kgv.schmiedekamp@gmx.de?subject=Eintrag%20f%C3%BCr%20die%20Gartenb%C3%B6rse%20des%20KGV%20Schmiedekamp&amp;body=Guten%20Tag%2C%0D%0A%0D%0Aich%20m%C3%B6chte%20folgenden%20Eintrag%20f%C3%BCr%20die%20Gartenb%C3%B6rse%20einreichen%3A%0D%0A%0D%0AName%3A%0D%0AParzelle%20%28optional%2C%20wird%20nicht%20automatisch%20ver%C3%B6ffentlicht%29%3A%0D%0AKategorie%20%28Verschenken%2FTauschen%2FVerleihen%2FSuche%29%3A%0D%0ATitel%3A%0D%0ABeschreibung%3A%0D%0AMenge%20und%20Zustand%3A%0D%0AG%C3%BCltig%20bis%3A%0D%0AGew%C3%BCnschter%20Kontaktweg%3A%0D%0AD%C3%BCrfen%20die%20angegebenen%20Kontaktdaten%20ver%C3%B6ffentlicht%20werden%3F%3A%0D%0A%0D%0AFreundliche%20Gr%C3%BC%C3%9Fe"
+            >Eintrag per E-Mail senden <span aria-hidden="true">↗</span></a>
+            <small>Die Website speichert keine Formulardaten und veröffentlicht nichts automatisch.</small>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section exchange-rules" aria-labelledby="rules-title">
+        <div class="shell">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow">Fair &amp; nachbarschaftlich</p>
+              <h2 id="rules-title">So bleibt die Gartenbörse angenehm</h2>
+            </div>
+            <p>Die Börse ist für private, gartenbezogene Angebote und Gesuche aus der Vereinsgemeinschaft gedacht.</p>
+          </div>
+
+          <div class="exchange-rules__grid">
+            <article data-reveal>
+              <span>01</span>
+              <h3>Nicht kommerziell</h3>
+              <p>Keine gewerblichen Anzeigen oder regelmäßigen Verkäufe.</p>
+            </article>
+            <article data-reveal>
+              <span>02</span>
+              <h3>Persönlich absprechen</h3>
+              <p>Übergabe, Zustand und Rückgabe werden direkt zwischen den Beteiligten geklärt.</p>
+            </article>
+            <article data-reveal>
+              <span>03</span>
+              <h3>Aktuell halten</h3>
+              <p>Abgelaufene Einträge verschwinden automatisch; erledigte Angebote bitte kurz melden.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand brand--footer" href="index.html" aria-label="Zur Startseite">
+            <span class="brand-mark" aria-hidden="true"><span>KS</span></span>
+            <span class="brand-copy">
+              <span class="brand-name">Schmiedekamp</span>
+              <span class="brand-kicker">Kleingärtnerverein e.V.</span>
+            </span>
+          </a>
+          <p class="footer-note">Gemeinsam gärtnern. Draußen zuhause.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Fußnavigation">
+          <a href="index.html#aktuelles">Aktuelles</a>
+          <a href="index.html#termine">Termine</a>
+          <a href="index.html#ideen">Ideen einreichen</a>
+          <a href="freie-gaerten.html">Freie Gärten</a>
+          <a href="gartenboerse.html" aria-current="page">Gartenbörse</a>
+          <a href="index.html#gartenwissen">Gartenwissen</a>
+          <a href="index.html#verein">Unser Verein</a>
+          <a href="index.html#kontakt">Kontakt</a>
+        </nav>
+        <div class="footer-legal">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <span>© <span data-current-year>2026</span> KGV Schmiedekamp e.V.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

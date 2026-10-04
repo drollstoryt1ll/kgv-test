@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="KGV Schmiedekamp e.V. in Braunschweig – Neuigkeiten, öffentliche Termine und Wissenswertes rund um unseren Kleingartenverein."
+    />
+    <meta name="theme-color" content="#0b614b" />
+    <title>KGV Schmiedekamp e.V. | Gemeinsam gärtnern</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b614b'/%3E%3Cpath d='M12 48C27 45 40 34 51 14' fill='none' stroke='%238ed7f2' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M27 37c-9 1-14-4-15-12 8-2 15 2 15 12Zm8-7c0-9 6-15 15-15 1 9-5 15-15 15Z' fill='%23ffffff'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+    <header class="site-header" data-header>
+      <div class="shell header-inner">
+        <a class="brand" href="#start" aria-label="KGV Schmiedekamp – Startseite">
+          <span class="brand-mark" aria-hidden="true"><span>KS</span></span>
+          <span class="brand-copy">
+            <span class="brand-name">Schmiedekamp</span>
+            <span class="brand-kicker">Kleingärtnerverein e.V.</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="nav-toggle__label">Menü</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+          <a href="#aktuelles">Aktuelles</a>
+          <a href="#termine">Termine</a>
+          <a href="freie-gaerten.html">Freie Gärten</a>
+          <a href="gartenboerse.html">Gartenbörse</a>
+          <a href="#verein">Verein</a>
+          <a href="#kontakt">Kontakt</a>
+          <a class="nav-app" href="#laubenmeister">Für Mitglieder</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="start" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-garten.webp"
+          alt="Ein grüner Kleingarten mit Gemüsebeeten, Obstbäumen und einer hölzernen Laube im Morgenlicht"
+          width="1828"
+          height="860"
+          fetchpriority="high"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow--light">Kleingartenkultur in Braunschweig</p>
+            <h1 id="hero-title">Gemeinsam gärtnern.<br />Draußen zuhause.</h1>
+            <p class="hero-intro">
+              Willkommen beim KGV Schmiedekamp – einem Ort für Natur, Erholung und ein gutes Miteinander.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--light" href="#aktuelles">Was gibt’s Neues?</a>
+              <a class="button button--ghost" href="#termine">Termine ansehen</a>
+            </div>
+          </div>
+
+          <aside class="hero-note" aria-label="Kurzportrait des Vereins">
+            <span class="hero-note__line"></span>
+            <p>Mitten im Grünen.</p>
+            <strong>Mitten in Braunschweig.</strong>
+            <span>Am Lünischteich</span>
+          </aside>
+        </div>
+      </section>
+
+      <div class="quickbar">
+        <div class="shell quickbar-inner">
+          <p><span aria-hidden="true">●</span> Öffentliche Infos kompakt an einem Ort</p>
+          <a href="#termine">Kalender fürs Smartphone <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+
+      <section class="section section--warm" id="aktuelles" aria-labelledby="aktuelles-title">
+        <div class="shell">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow">Aktuelles</p>
+              <h2 id="aktuelles-title">Neues aus dem Verein</h2>
+            </div>
+            <p>Wichtige Hinweise stehen sofort oben – ältere Meldungen bleiben übersichtlich im Archiv.</p>
+          </div>
+
+          <div class="news-grid">
+            <article class="feature-card" data-reveal>
+              <div class="feature-card__meta">
+                <span class="pill">Konzeptbeitrag</span>
+                <time datetime="2026-09-19">19. September 2026</time>
+              </div>
+              <div>
+                <h3>Ein neuer digitaler Treffpunkt entsteht</h3>
+                <p>
+                  Der erste Entwurf bündelt öffentliche Neuigkeiten, Termine und Gartenwissen. Persönliche
+                  Vereinsangelegenheiten bleiben geschützt in Laubenmeister.
+                </p>
+              </div>
+              <a class="text-link" href="#laubenmeister">So trennen wir die Bereiche <span aria-hidden="true">→</span></a>
+            </article>
+
+            <article class="info-card info-card--blue" data-reveal>
+              <span class="info-card__number">01</span>
+              <div>
+                <p class="eyebrow">Praktisch</p>
+                <h3>Termine direkt mitnehmen</h3>
+                <p>Ein Klick lädt den Vereinskalender als .ics-Datei – passend für iPhone, Android und Outlook.</p>
+              </div>
+              <a class="round-link" href="#termine" aria-label="Zu den Terminen">↘</a>
+            </article>
+
+            <article class="info-card info-card--green" data-reveal>
+              <span class="info-card__number">02</span>
+              <div>
+                <p class="eyebrow">Klar getrennt</p>
+                <h3>Öffentlich hier, intern in der App</h3>
+                <p>Die Website informiert. Laubenmeister bleibt der geschützte Ort für Verwaltung und Mitgliederdaten.</p>
+              </div>
+              <a class="round-link" href="#laubenmeister" aria-label="Mehr zur Laubenmeister-Trennung">↘</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="termine" aria-labelledby="termine-title">
+        <div class="shell">
+          <div class="section-heading section-heading--actions" data-reveal>
+            <div>
+              <p class="eyebrow">Vereinskalender</p>
+              <h2 id="termine-title">Termine, die mitkommen</h2>
+            </div>
+            <a class="button button--primary" href="termine.ics" download>
+              Alle Mustertermine (.ics)
+            </a>
+          </div>
+
+          <div class="concept-note" role="note" data-reveal>
+            <strong>Vorschau:</strong> Die folgenden Termine sind bewusst als Muster gekennzeichnet. Vor der
+            Veröffentlichung werden sie durch die echten Vereinstermine ersetzt.
+          </div>
+
+          <div class="events-list">
+            <article class="event" data-reveal>
+              <div class="date-tile" aria-label="17. April 2027">
+                <span>APR</span><strong>17</strong><small>2027</small>
+              </div>
+              <div class="event-main">
+                <span class="pill pill--outline">Mustertermin</span>
+                <h3>Saisonauftakt &amp; Wasser anstellen</h3>
+                <p>09:00–12:00 Uhr · Treffpunkt Vereinsheim</p>
+              </div>
+              <button
+                class="calendar-button"
+                type="button"
+                data-calendar-event
+                data-title="MUSTER: Saisonauftakt &amp; Wasser anstellen"
+                data-start="2027-04-17T09:00:00"
+                data-end="2027-04-17T12:00:00"
+                data-location="KGV Schmiedekamp, Am Lünischteich 26, 38104 Braunschweig"
+              >
+                <span>In Kalender</span><span aria-hidden="true">＋</span>
+              </button>
+            </article>
+
+            <article class="event" data-reveal>
+              <div class="date-tile" aria-label="19. Juni 2027">
+                <span>JUN</span><strong>19</strong><small>2027</small>
+              </div>
+              <div class="event-main">
+                <span class="pill pill--outline">Mustertermin</span>
+                <h3>Sommerfest im Vereinsheim</h3>
+                <p>15:00–21:00 Uhr · Für Gartenfreundinnen, Gartenfreunde und Gäste</p>
+              </div>
+              <button
+                class="calendar-button"
+                type="button"
+                data-calendar-event
+                data-title="MUSTER: Sommerfest im Vereinsheim"
+                data-start="2027-06-19T15:00:00"
+                data-end="2027-06-19T21:00:00"
+                data-location="KGV Schmiedekamp, Am Lünischteich 26, 38104 Braunschweig"
+              >
+                <span>In Kalender</span><span aria-hidden="true">＋</span>
+              </button>
+            </article>
+
+            <article class="event" data-reveal>
+              <div class="date-tile" aria-label="18. September 2027">
+                <span>SEP</span><strong>18</strong><small>2027</small>
+              </div>
+              <div class="event-main">
+                <span class="pill pill--outline">Mustertermin</span>
+                <h3>Herbsttreff &amp; Saisonabschluss</h3>
+                <p>14:00–18:00 Uhr · Rund um das Vereinsheim</p>
+              </div>
+              <button
+                class="calendar-button"
+                type="button"
+                data-calendar-event
+                data-title="MUSTER: Herbsttreff &amp; Saisonabschluss"
+                data-start="2027-09-18T14:00:00"
+                data-end="2027-09-18T18:00:00"
+                data-location="KGV Schmiedekamp, Am Lünischteich 26, 38104 Braunschweig"
+              >
+                <span>In Kalender</span><span aria-hidden="true">＋</span>
+              </button>
+            </article>
+          </div>
+
+          <details class="calendar-help" data-reveal>
+            <summary>Wie bekomme ich die Termine auf mein Smartphone?</summary>
+            <div>
+              <p>
+                Auf dem iPhone die .ics-Datei öffnen und „Alle hinzufügen“ wählen. Auf Android lässt sich die Datei
+                mit der Kalender-App oder Google Kalender importieren. Outlook erkennt das Format ebenfalls.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section ideas-section" id="ideen" aria-labelledby="ideen-title">
+        <div class="shell">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow">Ideen aus dem Verein</p>
+              <h2 id="ideen-title">Was sollen wir gemeinsam auf die Beine stellen?</h2>
+            </div>
+            <p>Veranstaltungen, Workshops, gemeinsame Aktionen oder Verbesserungen – gute Vorschläge sind willkommen.</p>
+          </div>
+
+          <div class="ideas-grid">
+            <aside class="idea-submit" data-reveal>
+              <span class="idea-submit__number">＋</span>
+              <div>
+                <p class="eyebrow eyebrow--sky">Vorschlag einreichen</p>
+                <h3>Eine kurze E-Mail genügt.</h3>
+                <p>
+                  Schick deine Idee an den Vorstand. Nach Prüfung kann sie hier veröffentlicht und im Verein
+                  weiterbesprochen werden.
+                </p>
+              </div>
+              <a
+                class="button button--light"
+                href="mailto:kgv.schmiedekamp@gmx.de?subject=Veranstaltungsvorschlag%20f%C3%BCr%20den%20KGV%20Schmiedekamp&amp;body=Guten%20Tag%2C%0D%0A%0D%0Aich%20habe%20folgenden%20Vorschlag%20f%C3%BCr%20den%20Verein%3A%0D%0A%0D%0AName%3A%0D%0ATitel%20der%20Idee%3A%0D%0AKurzbeschreibung%3A%0D%0AM%C3%B6glicher%20Zeitpunkt%20oder%20Zeitraum%3A%0D%0AWer%20k%C3%B6nnte%20mithelfen%3F%3A%0D%0AKontaktm%C3%B6glichkeit%3A%0D%0A%0D%0AFreundliche%20Gr%C3%BC%C3%9Fe"
+              >Idee per E-Mail senden <span aria-hidden="true">↗</span></a>
+              <small>Die Website selbst speichert keine Eingaben. Veröffentlicht wird erst nach redaktioneller Prüfung.</small>
+            </aside>
+
+            <div class="idea-board" data-reveal>
+              <div class="idea-board__head">
+                <div>
+                  <span>Vom Vorstand veröffentlicht</span>
+                  <h3>Vorschläge &amp; Impulse</h3>
+                </div>
+                <span class="idea-board__status">Redaktionell gepflegt</span>
+              </div>
+              <div class="idea-list" data-idea-list aria-live="polite">
+                <div class="idea-empty" data-idea-empty>
+                  <span aria-hidden="true">✦</span>
+                  <h4>Noch keine Vorschläge veröffentlicht</h4>
+                  <p>Sobald der Vorstand eine Idee freigibt, erscheint sie an dieser Stelle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ink" id="verein" aria-labelledby="verein-title">
+        <div class="shell about-grid">
+          <div class="about-copy" data-reveal>
+            <p class="eyebrow eyebrow--sky">Unser Verein</p>
+            <h2 id="verein-title">Grüner Freiraum.<br />Gewachsene Gemeinschaft.</h2>
+            <p>
+              Der KGV Schmiedekamp verbindet kleingärtnerische Tradition mit einem offenen, zeitgemäßen
+              Vereinsleben. Zwischen Beeten, Obstbäumen und Lauben entsteht Raum für Erholung, Artenvielfalt und
+              Begegnung.
+            </p>
+            <a class="button button--light" href="#kontakt">Verein kontaktieren</a>
+          </div>
+
+          <dl class="fact-grid" data-reveal>
+            <div>
+              <dt>Zu Hause</dt>
+              <dd>Am Lünischteich 26<br />38104 Braunschweig</dd>
+            </div>
+            <div>
+              <dt>Verbunden</dt>
+              <dd>Bezirksverband Steintor der Kleingärtner e.V.</dd>
+            </div>
+            <div>
+              <dt>Wofür wir stehen</dt>
+              <dd>Natur · Gemeinschaft · Erholung</dd>
+            </div>
+            <div>
+              <dt>Gut informiert</dt>
+              <dd>Aktuelles online, Vereinsinternes in Laubenmeister</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section section--warm" id="gartenwissen" aria-labelledby="wissen-title">
+        <div class="shell">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow">Gartenwissen</p>
+              <h2 id="wissen-title">Wissen, das wachsen lässt</h2>
+            </div>
+            <p>Öffentliche Grundlagen und saisonale Hinweise – verständlich, knapp und ohne internen Papierkram.</p>
+          </div>
+
+          <div class="topic-grid">
+            <article class="topic-card" data-reveal>
+              <span class="topic-card__index">01</span>
+              <div class="topic-card__rule"></div>
+              <h3>Naturnah gärtnern</h3>
+              <p>Lebensräume schaffen, Wasser bewusst nutzen und Nützlinge im Garten fördern.</p>
+            </article>
+            <article class="topic-card" data-reveal>
+              <span class="topic-card__index">02</span>
+              <div class="topic-card__rule"></div>
+              <h3>Kleingarten kompakt</h3>
+              <p>Grundlagen zu Nutzung, Rücksichtnahme und dem guten Miteinander in der Anlage.</p>
+            </article>
+            <article class="topic-card" data-reveal>
+              <span class="topic-card__index">03</span>
+              <div class="topic-card__rule"></div>
+              <h3>Durch die Saison</h3>
+              <p>Zur richtigen Zeit schneiden, säen, pflegen und den Garten winterfest machen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section laubenmeister" id="laubenmeister" aria-labelledby="laubenmeister-title">
+        <div class="shell laubenmeister-grid">
+          <div data-reveal>
+            <p class="eyebrow eyebrow--sky">Für Mitglieder</p>
+            <h2 id="laubenmeister-title">Vereinsintern bleibt vereinsintern.</h2>
+          </div>
+          <div class="laubenmeister-copy" data-reveal>
+            <p>
+              Mitgliedsdaten, Dokumente, Zählerstände, Arbeitsstunden und Verwaltung werden nicht auf dieser Website
+              doppelt gepflegt. Dafür nutzt der Verein Laubenmeister. Die öffentliche Interessenbekundung für einen
+              Garten beginnt lediglich per E-Mail; weitere interne Schritte bleiben beim Verein. Nur öffentliche
+              Neuigkeiten und Termine können bewusst auf beiden Kanälen erscheinen.
+            </p>
+            <a class="button button--sky" href="https://www.laubenmeister.de/" target="_blank" rel="noreferrer">
+              Mehr zu Laubenmeister <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="kontakt" aria-labelledby="kontakt-title">
+        <div class="shell contact-grid">
+          <div class="contact-intro" data-reveal>
+            <p class="eyebrow">Kontakt</p>
+            <h2 id="kontakt-title">Einfach mal<br />vorbeikommen.</h2>
+            <p class="contact-intro__copy">Fragen zum Verein oder Interesse am Kleingarten? Der direkte Weg führt über unseren Ansprechpartner.</p>
+            <a class="button button--primary" href="freie-gaerten.html">Freie Gärten &amp; Interesse</a>
+          </div>
+
+          <div class="contact-card" data-reveal>
+            <div>
+              <span class="contact-label">Anschrift</span>
+              <p>KGV Schmiedekamp e.V.<br />Am Lünischteich 26<br />38104 Braunschweig</p>
+              <a class="text-link" href="https://www.openstreetmap.org/search?query=Am%20L%C3%BCnischteich%2026%2C%2038104%20Braunschweig" target="_blank" rel="noreferrer">
+                Route öffnen <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div>
+              <span class="contact-label">Ansprechpartner</span>
+              <p>Wolfram Seiffert</p>
+              <a href="tel:+4915774327344">0157 74327344</a>
+              <a href="mailto:kgv.schmiedekamp@gmx.de">kgv.schmiedekamp@gmx.de</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand brand--footer" href="#start" aria-label="Zurück nach oben">
+            <span class="brand-mark" aria-hidden="true"><span>KS</span></span>
+            <span class="brand-copy">
+              <span class="brand-name">Schmiedekamp</span>
+              <span class="brand-kicker">Kleingärtnerverein e.V.</span>
+            </span>
+          </a>
+          <p class="footer-note">Gemeinsam gärtnern. Draußen zuhause.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Fußnavigation">
+          <a href="#aktuelles">Aktuelles</a>
+          <a href="#termine">Termine</a>
+          <a href="#ideen">Ideen einreichen</a>
+          <a href="freie-gaerten.html">Freie Gärten</a>
+          <a href="gartenboerse.html">Gartenbörse</a>
+          <a href="#gartenwissen">Gartenwissen</a>
+          <a href="#verein">Unser Verein</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+        <div class="footer-legal">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <span>© <span data-current-year>2026</span> KGV Schmiedekamp e.V.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

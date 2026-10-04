@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KGV Schmiedekamp//Website-Entwurf//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KGV Schmiedekamp – Mustertermine
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:20270417-saisonauftakt@kgv-schmiedekamp.de
+DTSTAMP:20260919T120000Z
+DTSTART;TZID=Europe/Berlin:20270417T090000
+DTEND;TZID=Europe/Berlin:20270417T120000
+SUMMARY:MUSTER: Saisonauftakt & Wasser anstellen
+LOCATION:KGV Schmiedekamp\, Am Lünischteich 26\, 38104 Braunschweig
+DESCRIPTION:Muster im Website-Entwurf. Kein offizieller Vereinstermin.
+END:VEVENT
+BEGIN:VEVENT
+UID:20270619-sommerfest@kgv-schmiedekamp.de
+DTSTAMP:20260919T120000Z
+DTSTART;TZID=Europe/Berlin:20270619T150000
+DTEND;TZID=Europe/Berlin:20270619T210000
+SUMMARY:MUSTER: Sommerfest im Vereinsheim
+LOCATION:KGV Schmiedekamp\, Am Lünischteich 26\, 38104 Braunschweig
+DESCRIPTION:Muster im Website-Entwurf. Kein offizieller Vereinstermin.
+END:VEVENT
+BEGIN:VEVENT
+UID:20270918-herbsttreff@kgv-schmiedekamp.de
+DTSTAMP:20260919T120000Z
+DTSTART;TZID=Europe/Berlin:20270918T140000
+DTEND;TZID=Europe/Berlin:20270918T180000
+SUMMARY:MUSTER: Herbsttreff & Saisonabschluss
+LOCATION:KGV Schmiedekamp\, Am Lünischteich 26\, 38104 Braunschweig
+DESCRIPTION:Muster im Website-Entwurf. Kein offizieller Vereinstermin.
+END:VEVENT
+END:VCALENDAR
